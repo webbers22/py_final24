@@ -13,6 +13,6 @@ unique_values = data['whoAmI'].unique()
 for value in unique_values:
     one_hot[value] = (data['whoAmI'] == value).astype(int)
 
-print(one_hot.head())
+one_hot.head()
 
 
